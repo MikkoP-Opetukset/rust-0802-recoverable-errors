@@ -20,8 +20,8 @@ use std::io::Write;
 /// The examples use one save file in this demo directory (`save_slot_1.txt`,
 /// which is in `.gitignore`). Each section removes it first so the output is
 /// the same on every run. Panicking arms are present but not executed; delete
-/// the file, comment out the example functions prior to the one you want to
-/// inspect, and run again to see them.
+/// the file, comment out the part that creates the file, and run again to see
+/// them.
 fn main() {
     result_is_an_enum();
     matching_on_a_result();
